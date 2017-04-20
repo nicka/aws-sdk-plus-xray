@@ -1,0 +1,53 @@
+{
+  "name": "aws-sdk-plus-xray",
+  "version": "0.1.0",
+  "description": "Wrapper around the aws-sdk and aws-xray-sdk-core",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "author": "Nick den Engelsman",
+  "maintainers": [
+    {
+      "email": "nickdenengelsman@gmail.com",
+      "name": "Nick den Engelsman"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicka/aws-sdk-plus-xray"
+  },
+  "homepage": "https://github.com/nicka/aws-sdk-plus-xray",
+  "keywords": [
+    "aws",
+    "xray"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.43.0",
+    "aws-xray-sdk": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2"
+  },
+  "jest": {
+    "bail": true,
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "roots": [
+      "test"
+    ],
+    "verbose": true
+  }
+}
