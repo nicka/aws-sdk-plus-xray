@@ -9,7 +9,7 @@ npm install --save aws-sdk-plus-xray
 ## Usage
 
 ```js
-import AWS from 'aws-sdk-plus-xray';
+const AWS = require('aws-sdk-plus-xray');
 ```
 
 ### Disabling X-Ray support

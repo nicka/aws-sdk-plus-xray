@@ -1,6 +1,6 @@
 {
   "name": "aws-sdk-plus-xray",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper around the aws-sdk and aws-xray-sdk-core",
   "main": "index.js",
   "scripts": {
