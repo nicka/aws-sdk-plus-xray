@@ -4,6 +4,7 @@
 
 ```bash
 npm install --save aws-sdk-plus-xray
+npm install --save-dev aws-sdk
 ```
 
 ## Usage
