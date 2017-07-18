@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Wrapper around the aws-sdk and aws-xray-sdk-core",
   "main": "index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "pretest": "eslint .",
     "test": "jest"
@@ -28,7 +29,8 @@
     "aws-xray-sdk": "^1.1.0"
   },
   "peerDependencies": {
-    "aws-sdk": "^2.43.0"
+    "aws-sdk": "^2.43.0",
+    "@types/aws-sdk": "^2.7.0"
   },
   "devDependencies": {
     "aws-sdk": "^2.43.0",
